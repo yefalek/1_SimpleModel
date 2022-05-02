@@ -34,5 +34,43 @@ color: #616161;
 }
 /* ********************* */
 .wrapper{
+overflow: hidden;
+display: flex;
+flex-direction: column;
+min-height: 100%;
+}
 
+[class*="__container"]{
+    max-width: 1057px;
+    margin: 0px auto;
+}
+.main{
+    flex:1 1 auto;
+}
+
+.header {
+}
+.header__container {
+    display: flex;
+}
+.header__logo {
+}
+.header__menu {
+    flex: 1 1 auto;
+}
+.header__button {
+}
+
+.menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+}
+
+.button {
+}
+.button_blue {
 }
