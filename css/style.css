@@ -276,17 +276,6 @@ background-color: #ec8f95;
         min-height: 70px;
     }
 
-    
-    
-    
-    
-    
-    
-
-    
-
-    
-
     .header:target .icon-menu{
         display: none;
     }
