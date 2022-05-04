@@ -32,7 +32,7 @@ font-family: Rubik;
 font-size: 12px;
 color: #616161;
 }
-/* ********************* */
+/* **********header*********** */
 .wrapper{
 overflow: hidden;
 display: flex;
@@ -283,4 +283,41 @@ background-color: #ec8f95;
     .header:target .close-icon-menu{
         display: flex;
     }
+}
+
+/* **********main block Get-started************* */
+
+.get-started {
+}
+.get-started__container {
+}
+.get-started__content {
+}
+.get-started__block-text {
+}
+.block-text {
+}
+.block-text__title {
+}
+.block-text__title_blue {
+}
+.block-text__text {
+}
+.block-text__button {
+}
+.button {
+}
+.get-started__video {
+}
+.video-get-started {
+}
+.video-get-started__iceon {
+}
+.video-get-started__body {
+}
+.video-get-started__title {
+}
+.video-get-started__text {
+}
+.get-started__image {
 }
