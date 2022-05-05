@@ -452,6 +452,7 @@ flex: 0 1 50%;
 .media-stay-safe__image::after{
     content: "";
     position: absolute;
+    z-index: 1;
     bottom: 22px;
     left: 40px;
     width: 206px;
@@ -462,10 +463,23 @@ flex: 0 1 50%;
 /* ********decor_items**** */
 
 .media-stay-safe__item {
+    position: absolute;
+    background-color: #EC5863;
+    border-radius: 30px;
+    width: 77px;
+    height: 77px;
 }
 .media-stay-safe__item_1 {
+    top: 30px;
+    left: 0;
+    width: 147px;
+    height: 147px;
 }
 .media-stay-safe__item_2 {
+    bottom: 35px;
+    left: 33px;
 }
 .media-stay-safe__item_3 {
+    bottom: 144px;
+    right: 34px;
 }
