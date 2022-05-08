@@ -540,7 +540,7 @@ flex: 0 1 50%;
     z-index: 2;
 }
 .body-statistics-experts {
-    padding: 20px 80px;
+    padding: 28px 80px;
     display: flex;
     align-items: center;
 }
@@ -556,6 +556,7 @@ flex: 0 1 50%;
     font-size: 36px;
     line-height: 43px;
     letter-spacing: 0.14em;
+    margin-bottom: 5px;
     color: #EC5863;
 }
 .body-statistics-experts__text {
@@ -580,6 +581,19 @@ flex: 0 1 50%;
     border-radius: 16px;
 }
 .statistics-experts__decor_2 {
+    width: 96.96px;
+    height: 96.96px;
+    left: 32%;
+    top: -40px;
+    border-radius: 30px;
+    transform: rotate(15deg);
+
 }
 .statistics-experts__decor_3 {
+    width: 127.47px;
+    height: 127.47px;
+    top: 0px;
+    right: -50px;
+    border-radius: 30px;
+    transform: rotate(-30deg);
 }
