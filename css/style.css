@@ -767,18 +767,26 @@ flex: 0 1 50%;
     .healthcare__items:not(:last-child){
         margin: 0px 0px 25px 0px;
     }
+    .item-healthcare_2::after{
+        display: none;
+    }
 }
 /* *********************block Footer*********** */
 .footer {
     padding: 45px 0px;
 }
-.footer__container {
-}
 .footer__items {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    column-gap: 50px;
+    row-gap: 20px;
 }
-.footer__item {
+@media (max-width:500px) {
+    .footer{
+        padding: 30px 0;
+    }
+    .footer__items{
+        flex-direction: column;
+    }
 }
