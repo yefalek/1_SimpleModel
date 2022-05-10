@@ -228,7 +228,7 @@ background-color: #ec8f95;
         left:0;
     }
 
-    .header:target .menu__body:before{
+    .header:target .menu__body::before{
         content: "";
         position: fixed;
         top: 0;
@@ -240,7 +240,7 @@ background-color: #ec8f95;
 
     .menu__body{
         position: fixed;
-        z-index: 3;
+        z-index: 5;
         overflow: auto;
         top: 0;
         left: -100%;
@@ -287,8 +287,7 @@ background-color: #ec8f95;
 }
 
 /* **********main block Get-started************* */
-.block-text {
-}
+
 .block-text_center{
 text-align: center;
 }
@@ -451,7 +450,7 @@ flex: 0 1 50%;
 }
 .media-stay-safe__image img{
     position: relative;
-    z-index: 2;
+    z-index: 1;
     max-width: 100%;
 }
 
@@ -582,7 +581,7 @@ flex: 0 1 50%;
     margin: 0px 0px 80px 0px;
 
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 .body-statistics-experts {
     padding: 28px 80px;
