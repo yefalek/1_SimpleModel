@@ -756,10 +756,15 @@ flex: 0 1 50%;
 }
 /* *********************block Footer*********** */
 .footer {
+    padding: 45px 0px;
 }
 .footer__container {
 }
 .footer__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 .footer__item {
 }
